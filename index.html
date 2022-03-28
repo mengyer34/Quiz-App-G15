@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2022-QUIZ-APP-G15</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="logo">
+            <img src="IMG/pn-logo.png" alt="">
+        </div>
+        <div class="app-name">
+            <h1>2022-QUIZ-APP-G15</h1>
+        </div>
+    <!-- <button class="start">START</i></button>
+    <button class="edit">EDIT</i></button> -->
+    </div>
+    <div id="home-page">
+        <div class="container-home">
+            <h1>Welcome to the quiz creater online app</h1>
+            <p>Our Quiz App is created by student from Passerellesnumeriques Cambodia generation 2022. You will get new experiences from this  app.</p>
+            <button id="start" class="button-66" role="button">START</button>
+        </div>
+    </div>
+
+    <!-- Add quiz Container  -->
+    <div class="addContainer">
+        <h1 class="title">Add Question</h1>       
+        <form class="manageForm">
+            <div id="inputForm">
+                <input id="getQuestion" type="text" placeholder="Questions" required="required">
+
+                <div class="answer-control">
+                    <input type="radio" value="a" name="answer">
+                    <input class="getAnswer" type="text" placeholder="Answer​​​​ 1" required="required">
+                </div>
+                <div class="answer-control">
+                    <input type="radio" value="b" name="answer">
+                    <input class="getAnswer" type="text" placeholder="Answer​​​​ 2" required="required">
+                </div>
+                <div class="answer-control">
+                    <input type="radio" value="c" name="answer">
+                    <input class="getAnswer" type="text" placeholder="Answer​​​​ 3" required="required">
+                </div>
+                <div class="answer-control">
+                    <input type="radio" value="d" name="answer">
+                    <input class="getAnswer" type="text" placeholder="Answer​​​​ 4" required="required">
+                </div>
+            </div>
+        </form>
+        <button class="cancel">CANCEL</i></button>
+        <button class="add">ADD</i></button>
+    </div>
+
+    <!-- Add quiz Container  -->
+    <div class="editFormContainer">
+        <h1 class="title">Edit Question</h1>       
+        <form class="manageFormEdit">
+            <div id="inputFormEdit">
+                <input id="getQuestionEdit" type="text" placeholder="Questions" required="required">
+
+                <div class="answer-control">
+                    <input type="radio" value="a" name="answer">
+                    <input class="getAnswerEdit" type="text" placeholder="Answer​​​​ 1" required="required">
+                </div>
+                <div class="answer-control">
+                    <input type="radio" value="b" name="answer">
+                    <input class="getAnswerEdit" type="text" placeholder="Answer​​​​ 2" required="required">
+                </div>
+                <div class="answer-control">
+                    <input type="radio" value="c" name="answer">
+                    <input class="getAnswerEdit" type="text" placeholder="Answer​​​​ 3" required="required">
+                </div>
+                <div class="answer-control">
+                    <input type="radio" value="d" name="answer">
+                    <input class="getAnswerEdit" type="text" placeholder="Answer​​​​ 4" required="required">
+                </div>
+            </div>
+        </form>
+        <button class="cancel2">CANCEL</i></button>
+        <button class="save">Save</i></button>
+    </div>
+
+    <!-- EDIT FORM CONTAINER ============================================ -->
+
+
+    <div class="finalResult">
+        <div class="title">
+            <i class="fa fa-star"></i>
+            <h3>Result</h3>
+            <i class="fa fa-star"></i>
+        </div>
+        <h1></h1>
+        <!-- <div class="itemResult">Correct: 10</div>
+        <div class="itemResultIn">Incorrect: 0</div> -->
+        <button class="showCorrection">Corrections</button>
+    </div>
+    <div class="mainContainerEdit">
+        <ul>
+            <li id="edit-mode">EDIT</li>
+            <li id="add-mode">ADD QUESTION</li>
+        </ul>
+              
+        <div class="mainContainerQ">
+            <h1 class="title">Edit Question</h1> 
+        </div>
+    </div>
+
+    <!-- Corrections +++++++++++++++++++++++++++++++++==  -->
+    <div class="correctionList">
+        <h1>List of Your Correction</h1>
+        <div class="inAndCo">
+            <div class="co"></div>
+            <div class="inCo"></div>
+            <div class="totalResult"></div>
+        </div>
+    </div>
+
+
+    <button class="btnSubmitResult"><i class="fa fa-check-circle-o"></i></button>
+
+    <script src="js/main.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
